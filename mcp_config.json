@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "wxauto": {
+      "command": "python",
+      "args": ["wxauto_mcp_cherry_studio.py", "--port", "25008"],
+      "cwd": "D:\\AI\\wxauto-mcp",
+      "env": {
+        "PYTHONPATH": "D:\\AI\\wxauto-mcp"
+      },
+      "transport": {
+        "type": "sse",
+        "url": "http://localhost:25008/sse"
+      }
+    }
+  }
+}
